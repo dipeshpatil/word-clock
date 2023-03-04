@@ -70,7 +70,7 @@
 
 @media screen and (min-device-width: 162px) and (max-device-width: 200px) {
   .letter {
-    padding: 1px;
-    font-size: 5px;
+    padding: 4px;
+    font-size: 8px;
   }
 }
