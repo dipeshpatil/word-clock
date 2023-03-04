@@ -1,0 +1,17 @@
+:root {
+  --ws-grid-cols: 12;
+  --ws-grid-rows: 9;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.clock {
+  width: auto;
+  display: grid;
+  grid-gap: 0 0;
+  grid-template-rows: repeat(var(--ws-grid-rows), 1fr);
+  grid-template-columns: repeat(var(--ws-grid-cols), 1fr);
+}
