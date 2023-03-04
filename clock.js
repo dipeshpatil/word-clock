@@ -1,5 +1,5 @@
 const hoursWordMap = [
-  ,
+  "twelve",
   "one",
   "two",
   "three",
@@ -11,7 +11,6 @@ const hoursWordMap = [
   "nine",
   "ten",
   "eleven",
-  "twelve",
 ];
 
 const getTime = () => {
@@ -26,6 +25,8 @@ const getTime = () => {
 export const getWords = () => {
   let [hours, minutes, seconds] = getTime();
   const words = [];
+
+  minutes = 0;
 
   if (minutes < 5) words.push(hoursWordMap[hours], "oclock");
   else if (minutes >= 5 && minutes < 40) {

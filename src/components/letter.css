@@ -1,7 +1,8 @@
 .letter {
   display: inline-block;
   /* border: 1px solid black; */
-  background-color: #fff;
+  background-color: #000;
+  color: #f0f0f0;
   text-align: center;
   padding: 15px;
   font-size: 50px;
@@ -9,33 +10,33 @@
 }
 
 .it {
-  background-color: aqua;
+  background-color: #008080;
 }
 
 .is {
-  background-color: aquamarine;
+  background-color: blueviolet;
 }
 
 .to {
-  background-color: cadetblue;
+  background-color: #008080;
 }
 
 .m_five {
-  background-color: #de3163;
+  background-color: #a33056;
 }
 
 .m_ten {
-  background-color: #de3163;
+  background-color: #a33056;
 }
 
 .quarter {
-  background-color: #de3163;
+  background-color: #a33056;
 }
 .past {
-  background-color: #6495ed;
+  background-color: #2b547e;
 }
 .half {
-  background-color: #de3163;
+  background-color: #a33056;
 }
 
 .one,
@@ -50,7 +51,7 @@
 .ten,
 .eleven,
 .twelve {
-  background-color: #ffc300;
+  background-color: #b37400;
 }
 
 .twenty {
